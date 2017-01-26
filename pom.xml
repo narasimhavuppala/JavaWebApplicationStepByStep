@@ -57,4 +57,12 @@
             </plugins>
         </pluginManagement>
     </build>
+    
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Shreemaan-releases</name>
+        <url>http://localhost:8081/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
